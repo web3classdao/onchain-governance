@@ -1,15 +1,21 @@
 1. Clone/Download the Repository
 
 2. Install Dependencies:
+```
 $ npm install
+```
 
 3. Start Ganache
 
 4. Migrate Smart Contracts
+```
 $ truffle migrate --reset
+```
 
 5. Run 1st script
+```
 $ truffle exec .\scripts\1_create_proposal.js
+```
 
 ---
 
