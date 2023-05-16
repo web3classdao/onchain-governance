@@ -11,10 +11,12 @@ $ truffle migrate --reset
 5. Run 1st script
 $ truffle exec .\scripts\1_create_proposal.js
 
+---
 
-< Output will be like below >
+## Output will be like below
 
->truffle exec .\scripts\1_create_proposal.js
+```
+truffle exec .\scripts\1_create_proposal.js
 Using network 'development'.
 
 Funds released? false
@@ -49,3 +51,4 @@ Current state of proposal: 7 (Executed)
 
 Funds released? true
 Funds inside of treasury: 0 ETH
+```
